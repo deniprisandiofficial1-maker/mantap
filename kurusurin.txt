@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, minimum-scale=1.0" name="viewport"/>
+        <title>
+            KARTUTOTO &gt;&gt; Situs Togel Elit Paling Best Seller 2026! Pasaran Terlengkap &amp; Layanan Terbaik
+        </title>
+        <!-- Favicon -->
+        <link href="https://res.cloudinary.com/dyo3gvfoo/image/upload/v1771879408/iconjos_k3emr6.png" rel="icon" type="image/x-icon"/>
+        <link href="https://res.cloudinary.com/dyo3gvfoo/image/upload/v1771879408/iconjos_k3emr6.png" rel="shortcut icon" type="image/x-icon"/>
+        <!-- Description -->
+        <meta content="KARTUTOTO situs togel elit paling best seller 2026 dengan pasaran terlengkap, layanan terbaik 24 jam, akses cepat, sistem stabil, dan pengalaman bermain yang lebih nyaman setiap hari." name="description"/>
+        <!-- Preload Image -->
+        <link as="image" fetchpriority="high" href="https://imagesources.host/picture.idaman/ysx.png" rel="preload"/>
+        <!-- Open Graph -->
+        <meta content="KARTUTOTO" property="og:site_name"/>
+        <meta content="KARTUTOTO &gt;&gt; Situs Togel Elit Paling Best Seller 2026! Pasaran Terlengkap &amp; Layanan Terbaik" property="og:title"/>
+        <meta content="KARTUTOTO situs togel elit paling best seller 2026 dengan pasaran terlengkap, layanan terbaik 24 jam, akses cepat, sistem stabil, dan pengalaman bermain yang lebih nyaman setiap hari." property="og:description"/>
+        <meta content="website" property="og:type"/>
+        <meta content="https://www.kurusurin-coop.com/" property="og:url"/>
+        <meta content="https://res.cloudinary.com/dyo3gvfoo/image/upload/v1773862779/kartutoto1_jb066h.webp" property="og:image"/>
+        <meta content="200" property="og:image:width"/>
+        <meta content="200" property="og:image:height"/>
+        <!-- Twitter -->
+        <meta content="summary" name="twitter:card"/>
+        <meta content="KARTUTOTO" name="twitter:site"/>
+        <meta content="KARTUTOTO &gt;&gt; Situs Togel Elit Paling Best Seller 2026! Pasaran Terlengkap &amp; Layanan Terbaik" name="twitter:title"/>
+        <meta content="KARTUTOTO situs togel elit paling best seller 2026 dengan pasaran terlengkap, layanan terbaik 24 jam, akses cepat, sistem stabil, dan pengalaman bermain yang lebih nyaman setiap hari." name="twitter:description"/>
+        <meta content="https://res.cloudinary.com/dyo3gvfoo/image/upload/v1773862779/kartutoto1_jb066h.webp" name="twitter:image"/>
+        <!-- Twitter App Info -->
+        <meta content="KARTUTOTO" name="twitter:app:country"/>
+        <meta content="KARTUTOTO" name="twitter:app:name:iphone"/>
+        <meta content="646548751" name="twitter:app:id:iphone"/>
+        <meta content="https://www.kurusurin-coop.com/" name="twitter:app:url:iphone"/>
+        <meta content="KARTUTOTO" name="twitter:app:name:googleplay"/>
+        <meta content="KARTUTOTO" name="twitter:app:id:googleplay"/>
+        <meta content="https://www.kurusurin-coop.com/" name="twitter:app:url:googleplay"/>
+        <!-- App Links -->
+        <meta content="https://www.kurusurin-coop.com/" property="al:ios:url"/>
+        <meta content="646548751" property="al:ios:app_store_id"/>
+        <meta content="KARTUTOTO" property="al:ios:app_name"/>
+        <meta content="https://www.kurusurin-coop.com/" property="al:android:url"/>
+        <meta content="KARTUTOTO" property="al:android:package"/>
+        <meta content="KARTUTOTO" property="al:android:app_name"/>
+        <meta content="true" property="al:web:should_fallback"/>
+        <!-- Canonical -->
+        <link href="https://www.kurusurin-coop.com/" rel="canonical"/>
+        <link href="https://kurusurin.pages.dev/" rel="amphtml"/>
+        <!-- App Store Meta -->
+        <meta content="app-id=646548751" name="apple-itunes-app"/>
+        <meta content="app-id=com.ubuy" name="google-play-app"/>
+        <link href="https://www.kurusurin-coop.com/" rel="alternate"/>
+        <!-- Disable Alert/Confirm/Prompt -->
+        <script>
+            alert = confirm = prompt = function() {};
+        </script>
+        <!-- Global Variables -->
+        <script>
+            var is_arabic_store = '';
+                var isCartPage = '0';
+                var cloud_url = 'https://d3ulwu8fab47va.cloudfront.net/skin/frontend/default/ubuycom-v1/';
+        </script>
+        <!-- Google Tag Manager -->
+        <script>
+            window.addEventListener('load', function() {
+                        (function(w, d, s, l, i) {
+                                w[l] = w[l] || [];
+                                w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                                var f = d.getElementsByTagName(s)[0],
+                                                j = d.createElement(s),
+                                                dl = l != 'dataLayer' ? '&l=' + l : '';
+                                j.async = true;
+                                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                                f.parentNode.insertBefore(j, f);
+                        })(window, document, 'script', 'dataLayer', 'GTM-KFBPZ6R');
+                });
+        </script>
+        <!-- Observe Web Vitals -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                        if (typeof observeWebVitals !== "undefined") {
+                                setTimeout(function() {
+                                        // observeWebVitals();
+                                }, 3000);
+                        }
+                });
+        </script>
+    </head>
+</html>
